@@ -7,9 +7,34 @@ body {
     color: #000000;
 }
 
+/* unvisited link */
+a:link {
+color: red;
+}
+
+/* visited link */
+a:visited {
+color: green;
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: blue;
+} 
+
+a
+{
+    text-decoration: none;
+}
+
 .container {
 
-    max-width: 800px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -22,8 +47,32 @@ body {
 
 }
 
-h1, h2 {
+#leftSummary
+{
+    float: left;
+    max-width: 22%;
+    margin-top: -300px;
+}
+
+
+#rightSummary
+{
+    float: right;
+    max-width: 22%;
+    margin-top: -300px;
+}
+
+#references
+{
+    max-width: 100%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
 }
 
 p {
@@ -35,8 +84,20 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     border: dashed lightgreen 10px;
+}
+
+#harrietImg
+{
+    max-width: 30%;
+    float: right;
+}
+
+#IAm
+{
+    float: left;
+    max-width: 30%;
 }
 
 ul
@@ -46,4 +107,14 @@ ul
     color: green;
     background-color: lightgreen;
     border: dashed #57885b 15px;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.group
+{
+    font-size: small;
+    font-weight: bold;
 }
